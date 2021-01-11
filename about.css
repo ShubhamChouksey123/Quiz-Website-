@@ -1,0 +1,124 @@
+/* General */
+*{
+    padding: 0;
+    margin: 0px;  
+}
+.bg{
+    position: absolute;
+    width: 100%;
+    height : 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+     /* opacity: 0.5;  */
+}
+/* Flex Box _All Pages*/    
+.flex-container {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ 
+.flex-container > div {
+    /* background-color:rgb(86, 88, 10); */
+    margin: 10px;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai', cursive;
+}
+.flex-container a {
+    color: white;
+    border-radius: 22px;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}  
+
+  
+.flex-container a:hover {
+    color : black;
+    background-color: #ffffff99;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3rem;
+}  
+
+
+
+
+/* About Page*/
+#Aim{
+    color :lavender;
+    font-size: 20px;
+}
+.section{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: rgb(201 216 158 / 54%);
+    align-content: center;
+    color: #8c1f06;
+    margin-top: 3%;
+    margin-right: 500px;
+    margin-left : 50px;
+    padding : 30px;
+    align-items: center;
+    text-align: center;
+}
+
+#kid{
+    border-radius: 20px;
+    height: 300px;
+    width : 300px;
+}
+
+
+/* Challenge section (start quiz section)*/
+.challenge{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    border-radius: 10px;
+    align-content: center;
+    background-color: #debbbb94;
+    color: #8c1f06;
+    margin-top: 63px;
+    margin-right: 120px;
+    margin-left :400px;
+    padding : 30px;
+}
+#Text_1{
+    align-items: center;
+    text-align: center;
+}
+
+#Quiz{
+    color: blue;
+    align-items: center;
+    text-align: center;
+}
+
+.but{
+    text-align: center;
+}
+.button {    
+    background-color: #4CAF50;
+    border: 4px solid #000500; ;
+    color: rgb(14, 3, 1);
+    padding: 8px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 1px 1px;
+    cursor: pointer;
+    font-style: revert; 
+    width : 200px; 
+} 
+.para{
+    align-content : center;
+    text-align: center;
+}

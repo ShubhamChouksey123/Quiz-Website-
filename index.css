@@ -1,0 +1,121 @@
+/* General */
+*{
+    padding: 0;
+    margin: 0px;  
+}
+ 
+.bg{
+    position: absolute;
+    width: 100%;
+    height : 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: auto;
+     /* opacity: 0.5;  */
+}
+/* Flex Box _All Pages*/    
+.flex-container {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ 
+.flex-container > div {
+    /* background-color:rgb(86, 88, 10); */
+    margin: 10px;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai', cursive;
+}
+.flex-container a {
+    color: white;
+    border-radius: 22px;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}  
+
+  
+.flex-container a:hover {
+    color : black;
+    background-color: #ffffff99;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3rem;
+}  
+
+ 
+
+/* Challenge section (start quiz section)*/
+.challenge{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #debbbb94;
+    color: #8c1f06;
+    margin-top: 63px;
+    margin-right: 20%;
+    margin-left :35%;
+    padding : 30px;
+    /* height : 550px; */
+    height: 30%;
+    margin-bottom: 10%;
+    border-radius: 10px;    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    /* border: 3px solid yellow;  */
+}
+ #Text_1{
+    /* background-color: aqua; */
+    text-align: center; 
+    margin: 10px;
+    font-size: 2rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#Quiz{
+    /* background-color: aqua; */
+    margin: 10px;
+    font-size: 1.2rem;
+    color: blue;
+    align-items: center;
+    text-align: center;
+}
+
+.but{
+    margin: 10px;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {    
+    background-color: #4CAF50;
+    border: 4px solid #000500; ;
+    color: rgb(14, 3, 1);
+    padding: 8px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1px 1px;
+    cursor: pointer;
+    font-style: revert;
+    font-size: 2rem; 
+} 
+.para{
+    font-size: 1rem;
+    margin: 10px;
+    align-content : center;
+    text-align: center; 
+}
+
+

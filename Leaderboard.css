@@ -1,0 +1,80 @@
+/* General */
+*{
+    padding: 0;
+    margin: 0px;  
+}
+ 
+.bg{
+    position: absolute;
+    width: 100%;
+    height : 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+     /* opacity: 0.5;  */
+}
+/* Flex Box _All Pages*/    
+.flex-container {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ 
+.flex-container > div {
+    /* background-color:rgb(86, 88, 10); */
+    font-family: 'Baloo Bhai', cursive;
+    margin: 10px;
+    padding: 15px;
+    font-size: 1.3rem;
+}
+.flex-container a {
+    color: white;
+    border-radius: 22px;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}  
+
+  
+.flex-container a:hover {
+    color : black;
+    background-color: #ffffff99;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3rem;
+}  
+
+
+#Leaderborad_table{
+    margin-top: 100px;
+    color : lightgray;
+    background-color: #6053b53d;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width : 50%;
+    height : 300px;
+    border: 5px solid black;
+}
+.table_row{
+    padding: 30px;
+    border: black;
+    font-size: 20px;
+    border: 3px solid darkblue;
+    /* background-color: rgba(73, 206, 40, 0.555); */
+}
+
+.position_table, .Name_table, .Score_table, .Reward_table{
+    border: 3px solid darkblue;
+    padding : 3px;
+    border: black;
+}
+tr:nth-child(odd) {
+    background-color: #6053b585;
+}
+
+tr:hover {
+    background-color: #0c7ba7f6;
+}

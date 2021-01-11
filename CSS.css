@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0px;  
+}
+ 
+body{
+    background-color:#000000;;
+}
+.bg{
+    position: absolute;
+    /* background-attachment: scroll; */
+    /* background-clip: border-box; */
+    width: 100%;
+    z-index: -1;
+    background-position:right bottom;
+    background-repeat: no-repeat;
+    opacity: 1; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+/* .bg{
+    position: absolute;
+    width: 100%;
+    height : 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: auto;
+     opacity: 0.5; 
+} 
+*/
+
+/* Flex Box _All Pages*/    
+.flex-container {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ 
+.flex-container > div {
+    /* background-color:rgb(86, 88, 10); */
+    margin: 10px;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai', cursive;
+}
+.flex-container a {
+    color: white;
+    border-radius: 22px;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}  
+
+  
+.flex-container a:hover {
+    color : black;
+    background-color: #ffffff99;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3rem;
+}  
+
+ 
+
+ /* Question Quiz Section  */
+.challenge{
+    align-content: center;
+    background-color: #cecd9bf0;
+    color: #8c1f06;
+    margin-top: 40px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 30px;
+    /* height : 500px; */
+    display :flex;
+    /* justify-content: left; */
+    flex-direction: column;
+}
+.Question_Set{
+    margin:auto;
+    padding: 23px;
+    background-color: rgb(144, 201, 111);
+}
+
+.Individual_QandA{
+    padding: 5px;
+    font-size: 1.3rem;
+    /* background-color: aqua; */
+    margin : 10px;
+}
+
+.Question_only{
+    margin: 12px;
+    /* background-color: rgb(117 197 35); */
+    background-color:rgb(197 181 35 / 59%);
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.options{
+    /* background-color: coral; */
+    margin: 10px;
+}
+
+
+ /* Contact Form */
+.contact_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.items_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.but{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.button {    
+    background-color: #4CAF50;
+    border: 4px solid #000500; ;
+    color: rgb(14, 3, 1);
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1px 1px;
+    cursor: pointer;
+    font-style: revert;
+    font-size: 1.6rem; 
+ }
+
+ #phone , #name, #email, #message{
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+/* Check Mark  */
+
+input[type ="radio"]{
+    width: 20px; 
+    height: 20px;
+}
+
+/* Output Questions and Answers */
+.correct_ans{
+    background-color: green;
+}
+.marked_ans{
+    background-color: red;
+}
+
+/* Output Congrats message and start  */
+.Congrats_message{
+    text-align: center;
+    color: crimson;
+}
+.Result_score{
+    text-align: center;
+    font-size: 20px;
+}
+.box_Result{
+    background-color: rgba(120, 221, 120, 0.822);
+    padding: 32px;;
+    margin:auto;
+    border-radius: 20px;
+    border: 3px black solid;
+}
+
+.but{
+    margin: 10px;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {    
+    background-color: #4CAF50;
+    border: 4px solid #000500; ;
+    color: rgb(14, 3, 1);
+    padding: 8px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1px 1px;
+    cursor: pointer;
+    font-style: revert;
+    font-size: 2rem; 
+} 
+#start_another{
+    color :black;
+    text-align: center;
+}
