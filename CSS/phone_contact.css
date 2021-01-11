@@ -1,0 +1,46 @@
+ /* Navigation  Box  */
+ 
+.flex-container {
+    flex-direction: column;
+}
+
+
+.flex-container > div {
+    margin: 6px;
+    padding: 3px;
+    font-size: 1.2rem;
+}
+
+.flex-container a {
+    border-radius: 15px;
+    padding: 9px 15px;
+}
+
+.flex-container a:hover {
+    padding: 8px 8px;
+    font-size: 1.3rem;
+}  
+
+
+/* Images and Contacts  mainly three images phone mail and address*/
+.Container_conatcts{
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.Container_conatcts .box_contacts{ 
+    padding: 10px;
+    margin :auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+#mail_img , #location_img, #phone_img{
+    height: 70px;
+}
+
+.text_contact{
+    font-size: 1rem;
+} 

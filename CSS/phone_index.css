@@ -1,0 +1,48 @@
+ /* Navigation  Box  */
+
+.flex-container {
+    flex-direction: column;
+}
+
+
+.flex-container > div {
+    margin: 6px;
+    padding: 3px;
+    font-size: 1.2rem;
+}
+
+.flex-container a {
+    border-radius: 15px;
+    padding: 9px 15px;
+}
+
+.flex-container a:hover {
+    padding: 8px 8px;
+    font-size: 1.3rem;
+}  
+
+/* Challenge section (start quiz section)*/
+.challenge {
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 30px;
+    height :fit-content;
+    margin-bottom: 10%;
+}
+
+
+#Text_1{
+    font-size: 1.3rem;
+}
+
+#Quiz {
+    margin: 4px;
+    font-size: 0.7rem;
+}
+.button {
+    border: 3px solid #000500;
+    color: rgb(14, 3, 1);
+    padding: 2px 15px;
+    margin: 1px 1px;
+    font-size: 1.3rem;
+}

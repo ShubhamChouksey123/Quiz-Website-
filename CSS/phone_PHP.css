@@ -1,0 +1,41 @@
+
+/* Navigation  Box  */
+.flex-container {
+    flex-direction: column;
+}
+
+
+.flex-container > div {
+    margin: 6px;
+    padding: 3px;
+    font-size: 1.2rem;
+}
+
+.flex-container a {
+    border-radius: 15px;
+    padding: 9px 15px;
+}
+
+.flex-container a:hover {
+    padding: 8px 8px;
+    font-size: 1.3rem;
+}  
+
+.challenge{
+    margin-top: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 5px;
+    padding-left : 25px;
+    flex-direction: column;
+}
+
+.Individual_QandA{
+    padding: 10px;
+    margin : 5px;
+    font-size: 1.1rem;
+}
+
+.Question_only{
+    margin: 0;
+}
